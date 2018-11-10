@@ -47,7 +47,7 @@ function inserir(req, res, next) {
 
   /** Executando query e processando resultados */
   connection.query(strQuery, function(err, rows, fields) {
-    if (!err) { //Se não houver erros
+    if (!err) { //Se não houver erros      
       res.json(rows); //Retornamos as linhas
     } else { //Caso contrário
       res.json(err); //Retornamos dados sobre o erro
