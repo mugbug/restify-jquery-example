@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>EC021</title>
+</head>
+
+<body>
+    <h1 id="txt_hello">Hello Toddy!</h1>
+
+    <h3>INSERIR</h3>
+    <label>Lote: <input type="text" id="input_inserir_lote"></label><br>
+    <label>Conteúdo: <input type="text" id="input_inserir_conteudo"></label><br>
+    <label>Validade: <input type="text" id="input_inserir_validade"></label><br>
+    <button id="btn_inserir">POST</button>
+
+    <h3>LISTAR</h3>
+    <button id="btn_listar">GET</button>
+    <div id="div_listar"></div>
+
+    <h3>ATUALIZAR</h3>
+    <label>Id: <input type="text" id="input_atualizar_id"></label><br>
+    <label>Lote: <input type="text" id="input_atualizar_lote"></label><br>
+    <label>Conteúdo: <input type="text" id="input_atualizar_conteudo"></label><br>
+    <label>Validade: <input type="text" id="input_atualizar_validade"></label><br>
+    <button id="btn_atualizar">POST</button>
+
+    <h3>EXCLUIR POR ID</h3>
+    <label>Id: <input type="text" id="input_excluirPorId_id"></label><br>
+    <button id="btn_excluirPorId">POST</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
